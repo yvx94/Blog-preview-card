@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/45degreee_fabric.png);
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countenr {
+    background-color: #f4d04e;
+    width: 100%;
+    max-width: 1300px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #121212;
+    padding: 24px;
+}
+
+.card {
+    background-color: #ffffff;
+    max-width: 384px;
+    padding: 24px;
+    border-radius: 20px;
+    border: 1px solid #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    box-shadow: 8px 8px 0 0 #000000;
+}
+
+.card>img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card .w0 {
+    background-color: #f4d04e;
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.card .w2 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.card .w2:hover {
+    color: #f4d04e;
+}
+
+.card .w3 {
+    font-size: 16px;
+    color: #6b6b6b;
+}
+
+.user-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.w4 {
+    font-weight: bold;
+    color: #121212;
+}
+
+@media (min-width:375px) and (max-width:1439px) {
+    .countenr {
+        width: 700px;
+    }
+}
